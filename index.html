@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">Rock-Paper-Scissors</title>
+    <link rel="icon" type="image/png" href="assets/rock-paper-scissors.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="page-title">Rock Paper Scissors</h1>
+      <div class="game-option">
+        <label for="game-mode">Game Mode</label>
+        <select id="game-mode">
+          <option value="human-computer">Human vs Computer</option>
+          <option value="computer-computer">Computer vs Computer</option>
+        </select>
+      </div>
+    </header>
+
+    <section id="game">
+      <div id="score-board">
+        <div id="player-one-choice">Player One choice:<span></span></div>
+        <div id="player-two-choice">Player Two choice:<span></span></div>
+        <div id="score">
+          Score:
+          <span id="player-one-score">0</span> :
+          <span id="player-two-score">0</span>
+        </div>
+        <div id="round-result">Round Result: <span></span></div>
+      </div>
+    </section>
+  </body>
+</html>
